@@ -1,0 +1,92 @@
+Linux commands:
+
+pwd	----> present working directory
+
+cd	----> changing directory
+
+ls	----> list out the files in current directory
+
+touch	----> create a file
+		touch filename.format
+
+cat	----> view the file
+		cat filename.format
+
+rm	----> remove the particular file
+		rm filename.format
+
+echo    ----> to write text in a particular file
+
+echo "Text to be written in the file">>filename.format
+echo "I am the text written in the file">>a.txt
+
+mkdir   ----> create a directory
+
+mkdir directoryname
+mkdir Git_B
+
+cd -   ---> to go to the previous directory
+
+cd /   ---> root directory
+
+cd ..   ---> to navigate up one directory(previous directory) or parent directory of the current directory
+
+clear    ---->clear all the commands in screen
+
+-------------------------------------------
+
+Git commands:
+
+commands			functions
+
+git --version			check the version
+
+get config --global user.email	your mail id
+
+git config --global user.name	your username
+
+git init			create a .git(empty local repository)
+
+git add filename.format		add the untracked files in staging area/index
+
+git add.			add all the files
+. --->represents all files
+
+git ls-files			it shows the files in staging area
+
+git rm --cached filename.format	it remove the files in staging area
+
+git rm filename.format		it remove the files in staging area and workspace
+
+git status			list out the untracked and tracked files
+
+git log				list out the commit messages
+
+git commit -m "msg"		for declaration purpose
+				we add some message into remote
+
+HEAD---> Recent Commit
+
+git log --oneline		show the commit message hashcode
+
+git branch			listout the branch details
+
+git branch branchname 		it will create a new branch
+
+git checkout 			it will switch to that branch
+
+git checkout -b branchname	it will create a branch and switch to that branch
+
+git merge branchname		it will merge the branch
+
+git reset			undo the commits at repo level
+				remove files from staging area
+
+git remote add origin _____
+
+git push origin master
+
+git pull origin master
+
+git clone
+
